@@ -29,8 +29,10 @@ end
 def items
     item_names = []
     @cart.each do | item_info |
-      item_names << item_info[:title] 
-  end 
+      for qty in 1..item_info[:count] 
+        item_names << item_info[:title]
+      end 
+    end 
     item_names
   end 
 end 
