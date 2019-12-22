@@ -29,7 +29,7 @@ end
 def items
     item_names = []
     @cart.each do | item_info |
-      item_names << item_info[:title]
+      item_names << item_info[:title] * item_info[:count]
       end 
     end 
     item_names
