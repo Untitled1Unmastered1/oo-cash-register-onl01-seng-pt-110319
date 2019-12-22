@@ -17,7 +17,7 @@ class CashRegister
     @total += price * count 
   end 
   self.last_transaction = price * count 
-  end 
+end 
 
   
   def apply_discount
@@ -29,7 +29,7 @@ class CashRegister
   end
 end 
 
-def items
+  def items
     item_names = []
     @cart.each do | item_info |
       for qty in 1..item_info[:count] 
