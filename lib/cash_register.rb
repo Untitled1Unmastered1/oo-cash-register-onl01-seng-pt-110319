@@ -36,7 +36,7 @@ def items
     item_names
   end 
   
-  def 
+  def void_last_transaction
 end 
 
   
