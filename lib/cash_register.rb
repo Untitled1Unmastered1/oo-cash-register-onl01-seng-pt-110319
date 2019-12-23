@@ -49,6 +49,7 @@ class CashRegister
     
   def initialize(discount = nil)
     self.total = 0	
+    self.discount = discount	
     
 
 
