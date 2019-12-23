@@ -48,6 +48,7 @@ class CashRegister
   attr_accessor :total, :discount, :items, :last_transaction	
     
   def initialize(discount = nil)
+    self.total = 0	
     
 
 
