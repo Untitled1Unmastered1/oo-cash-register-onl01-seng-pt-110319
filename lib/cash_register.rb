@@ -53,7 +53,8 @@ class CashRegister
     self.items = []	
   end 
   
-  
+  def add_item(title, price, quantity = 1)
+    
 
 
 
