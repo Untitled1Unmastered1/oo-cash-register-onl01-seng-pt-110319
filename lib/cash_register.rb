@@ -57,7 +57,7 @@ class CashRegister
     self.total += price * quantity
     quantity.times { self.items << title }
     self.last_transaction = [title, price, quantity]
-    
+  end 
 
 
 
