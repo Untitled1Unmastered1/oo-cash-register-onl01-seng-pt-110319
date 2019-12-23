@@ -59,7 +59,7 @@ class CashRegister
     self.last_transaction = [title, price, quantity]
   end 
   
-  
+  def apply_discount	
 
 
 
